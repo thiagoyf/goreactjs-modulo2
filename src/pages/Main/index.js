@@ -47,6 +47,7 @@ export default class Main extends Component {
           <input
             type="text"
             placeholder="usuário/repositório"
+            value={this.state.repositoryInput}
             onChange={e => this.setState({ repositoryInput: e.target.value })}
           />
           <button type="submit">
